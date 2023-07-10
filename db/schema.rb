@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 2023_06_15_222741) do
 
   create_table "doctors", force: :cascade do |t|
     t.string "name"
+    t.string "specialty"
   end
 
   create_table "patients", force: :cascade do |t|
